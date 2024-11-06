@@ -1,3 +1,3 @@
-# Hardware Info
+# AXCL Hardware Info
 
 ## M.2 
