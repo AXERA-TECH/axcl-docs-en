@@ -5,7 +5,7 @@
 ## 1. Project background
 
 **AXCL** is the Host API for AX650N-based PCIE EP products.
-E
+
 - Provide related APIs and Examples of AI computing use with AXCL.
 - Facilitate community developers to co-create documents.
 
