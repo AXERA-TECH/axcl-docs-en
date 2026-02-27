@@ -2,19 +2,19 @@
 
 [Web Preview](https://axcl-docs-en.readthedocs.io/en/latest/)
 
-## 1. Project background
+## 1. Project Background
 
 **AXCL** is the Host API for AX650N-based PCIE EP products.
-E
-- Provide related APIs and Examples of AI computing use with AXCL.
-- Facilitate community developers to co-create documents.
 
-## 2. Local operation guide
+- Provide related APIs and examples for NPU computing with AXCL.
+- Facilitate community developers to co-maintain documentation.
+
+## 2. Local Build Guide
 
 ### 2.1 git clone
 
 ```bash
-git clone https://github.com/AXERA-TECH/axcl-docs.git
+git clone https://github.com/AXERA-TECH/axcl-docs-en.git
 ```
 
 The directory tree is as follows:
@@ -28,40 +28,37 @@ The directory tree is as follows:
 └── source
     ├── conf.py
     ├── doc_guide_axcl_api.md
+    ├── doc_guide_faq.md
     ├── doc_guide_hardware.md
     ├── doc_guide_quick_start.md
     ├── doc_introduction.md
     ├── doc_update_info.md
-    ├── index.rst
-    └── media
-        ├── demo
-        └── hardware
+    └── index.rst
 ```
 
-### 2.2 Compiled
+### 2.2 Build
 
-Installation dependency
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Execute the following command in the project root directory
+Execute the following command in the project root directory:
 
 ```bash
 $ make clean
 $ make html
 ```
 
-### 2.3 Preview
+### 2.3 Local Preview
 
-After compiling, use a browser to view it `build/html/index.html`
+After building, use a browser to view `build/html/index.html`.
 
-## 3. Refer to
+## 3. Reference
 
-This project is based on Sphinx, more information about Sphinx can be found here https://www.sphinx-doc.org/en/master/
+This project is based on Sphinx. More information about Sphinx can be found here: https://www.sphinx-doc.org/en/master/
 
-## 4. Release
+## 4. Online Publishing
 
-Online proxy based on [ReadtheDocs](https://readthedocs.org/) platform.
-
+Online web service hosted on [ReadtheDocs](https://readthedocs.org/) platform.
