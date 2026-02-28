@@ -1,7 +1,11 @@
-# Document modification and release instructions
+# Version Info
 
-## Modification record
+## Change Log
 
-| Version | Date | Info |
+| Version | Date | Description |
 | --- | --- | --- |
-| V001 | 2024-11-06 | Initial |
+| V0.0.1 | 2024-11-06 | Initial |
+| V3.0.2 | 2025-05-08 | Update to SDK_V3.0.2 |
+| V3.6.0 | 2025-05-21 | Update to SDK_V3.6.0 |
+| V3.6.1 | 2025-05-26 | Update to SDK_V3.6.1 |
+| V3.6.2 | 2025-06-07 | Added communication exception description in FAQ; added sysdump operation video |
