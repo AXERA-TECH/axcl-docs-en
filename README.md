@@ -14,7 +14,7 @@
 ### 2.1 git clone
 
 ```bash
-git clone https://github.com/AXERA-TECH/axcl-docs.git
+git clone https://github.com/AXERA-TECH/axcl-docs-en.git
 ```
 
 The directory tree is as follows:
@@ -25,35 +25,66 @@ The directory tree is as follows:
 ├── Makefile
 ├── README.md
 ├── build
-│   ├── doctrees
-│   └── html
+│   ├── doctrees
+│   └── html
 ├── requirements.txt
 ├── res
-│   ├── M2_YUNJI_DSC05130.jpg
-│   ├── axcl_architecture.svg
-│   ├── axcl_concept.svg
-│   ├── centos_dmsg_grep_cma.png
-│   ├── centos_grub_info.png
-│   ├── centos_selinux.png
-│   ├── imagenet_cat.jpg
-│   ├── transcode_ppl.png
-│   ├── voc_dog.jpg
-│   ├── voc_dog_yolov5s_out.jpg
-│   ├── voc_horse.jpg
-│   └── voc_horse_yolov5s_out.jpg
+│   ├── AX-M1.png
+│   ├── LLM8850.png
+│   ├── ax650_win64_drv_installed.png
+│   ├── ax650_win64_drv_uninstall.png
+│   ├── ax650_win64_install.mp4
+│   ├── ax650_win64_smi.png
+│   ├── axcl_architecture.svg
+│   ├── axcl_concept.svg
+│   ├── centos_dmsg_grep_cma.png
+│   ├── centos_grub_info.png
+│   ├── centos_selinux.png
+│   ├── depth_anything_out.png
+│   ├── faq_deb_install_1.png
+│   ├── faq_deb_install_2.png
+│   ├── faq_deb_install_3.png
+│   ├── ftrivial_auto_var_init.png
+│   ├── hw-board-id.png
+│   ├── imagenet_cat.jpg
+│   ├── m.2_rstn.png
+│   ├── pci-bus-tupo.png
+│   ├── pulsar2.png
+│   ├── sample_vdec.png
+│   ├── ssd_car.jpg
+│   ├── sysdump.mp4
+│   ├── transcode_ppl.png
+│   ├── ubuntu_apt_source.png
+│   ├── uos_develop_mode.png
+│   ├── uos_off_sign.png
+│   ├── voc_dog.jpg
+│   ├── voc_dog_yolov5s_out.jpg
+│   ├── voc_horse.jpg
+│   ├── voc_horse_yolov5s_out.jpg
+│   ├── vs2022_install.png
+│   ├── yolo11_out.jpg
+│   ├── yolo11_pose_out.jpg
+│   ├── yolo11_seg_out.jpg
+│   ├── yolo_world_out.jpg
+│   └── yolov7_face_out.jpg
 └── source
     ├── axcl_error_lookup.html
     ├── conf.py
     ├── doc_guide_axcl_api.md
+    ├── doc_guide_axcl_smi.md
+    ├── doc_guide_compile.md
     ├── doc_guide_faq.md
+    ├── doc_guide_ffmpeg.md
     ├── doc_guide_hardware.md
+    ├── doc_guide_npu_benchmark.md
+    ├── doc_guide_npu_samples.md
     ├── doc_guide_quick_start.md
     ├── doc_guide_samples.md
     ├── doc_guide_setup.md
+    ├── doc_guide_win_setup.md
     ├── doc_introduction.md
     ├── doc_update_info.md
-    ├── index.rst
-    └── media
+    └── index.rst
 ```
 
 ### 2.2 Build
